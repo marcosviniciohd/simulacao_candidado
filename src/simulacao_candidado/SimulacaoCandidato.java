@@ -32,6 +32,14 @@ public class SimulacaoCandidato {
 		System.out.print("Digite uma opção: ");
 		int escolaridade = sc.nextInt();
 		
+		System.out.print("Você tem quantos anos de experiência profissional? ");
+		int experiencia = sc.nextInt();
+		
+		System.out.print("Você tem disponibilidade para viajar (S/N)? ");
+		char disponibilidadeViagem = sc.next().charAt(0);
+		
+		System.out.print("Você tem habilitação de motorista (S/N)? ");
+		char habilitacao = sc.next().charAt(0);
 		
 		
 		
